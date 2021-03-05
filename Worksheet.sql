@@ -233,6 +233,19 @@ one exists.
 
 If no match is found and no ELSE clause is present, the CASE expression returns a NULL. 
 
+------------
+
+UNDERSTANDING SELF JOINS
+
+So far, the joins you have learned about have
+involved separate multiple tables. There may be
+scenarios in which you need to compare and
+retrieve data stored in the same table. For
+example, in a classic human resources application,
+an Employees table might include information
+about the supervisor of each employee in the
+employee's own row. 
+
 
 
 
